@@ -1,26 +1,26 @@
 const router = require('express').Router();
-const { Gallery, Painting } = require('../models');
+const { Genre, Song } = require('../models');
 // Import the custom middleware
 const withAuth = require('../utils/auth');
 
-// GET all galleries for homepage
+// GET all genres for homepage
 router.get('/', async (req, res) => {
   try {
-    const dbGalleryData = await Gallery.findAll({
+    const dbGenreData = await Genre.findAll({
       include: [
         {
-          model: Painting,
-          attributes: ['filename', 'description'],
+          model: Song,
+          attributes: ['title', 'artist'],
         },
       ],
     });
 
-    const galleries = dbGalleryData.map((gallery) =>
-      gallery.get({ plain: true })
+    const genres = dbGenreData.map((genre) =>
+    genre.get({ plain: true })
     );
 
     res.render('homepage', {
-      galleries,
+      genres,
       loggedIn: req.session.loggedIn,
     });
   } catch (err) {
@@ -29,43 +29,42 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET one gallery
-// Use the custom middleware before allowing the user to access the gallery
-router.get('/gallery/:id', withAuth, async (req, res) => {
+// GET one genre
+// Use the custom middleware before allowing the user to access the genre
+router.get('/genre/:id', withAuth, async (req, res) => {
   try {
-    const dbGalleryData = await Gallery.findByPk(req.params.id, {
+    const dbGenreData = await Genre.findByPk(req.params.id, {
       include: [
         {
-          model: Painting,
+          model: Song,
           attributes: [
             'id',
             'title',
             'artist',
-            'exhibition_date',
-            'filename',
-            'description',
+            'album',
+            'link',
           ],
         },
       ],
     });
 
-    const gallery = dbGalleryData.get({ plain: true });
-    res.render('gallery', { gallery, loggedIn: req.session.loggedIn });
+    const genre = dbGenreData.get({ plain: true });
+    res.render('genre', { genre, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
   }
 });
 
-// GET one painting
-// Use the custom middleware before allowing the user to access the painting
-router.get('/painting/:id', withAuth, async (req, res) => {
+// GET one song
+// Use the custom middleware before allowing the user to access the song
+router.get('/song/:id', withAuth, async (req, res) => {
   try {
-    const dbPaintingData = await Painting.findByPk(req.params.id);
+    const dbSongData = await Song.findByPk(req.params.id);
 
-    const painting = dbPaintingData.get({ plain: true });
+    const song = dbSongData.get({ plain: true });
 
-    res.render('painting', { painting, loggedIn: req.session.loggedIn });
+    res.render('song', { song, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
