@@ -27,7 +27,7 @@ const genreData = [
   },
   {
     name: 'Electronic',
-    image_name: 'electronic.jpg',
+    image_name: 'electronicgenre.jpg',
   }
 ];
 
