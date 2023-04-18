@@ -1,3 +1,17 @@
-{{#each song as |song|}}
+<h1>Genres</h1>
+<div class="genre-cards">
+  {{#each genres}}
+    <div class="gallery card-body painting">
+      <h2>{{this.name}}</h2>
+      <img
+        src="/images/{{this.image_name}}"
+        alt="image representing genre"
+      />
+      <a href="/genre/{{this.id}}">View {{this.name}} songs</a>
+    </div>
+  {{/each}}
+</div>
+
+{{!-- {{#each song as |song|}}
 {{> song-details}}
-{{/each}}
+{{/each}} --}}
