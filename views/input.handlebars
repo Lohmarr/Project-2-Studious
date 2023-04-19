@@ -1,26 +1,38 @@
 <div class="row justify-space-between-md">
   <div class="login-card">
     <h2 class="page-title">Add Song</h2>
-    <form class="form signup-form">
+    <form class="form signup-form input-form">
       <div class="form-group">
-        <label for="username-signup">Song Title:</label>
-        <input class="form-input" type="text" id="username-signup" />
+        <label for="title-input">Song Title:</label>
+        <input class="form-input" type="text" id="title-input" />
       </div>
       <div class="form-group">
-        <label for="email-signup">Artist:</label>
-        <input class="form-input" type="text" id="email-signup" />
+        <label for="artist-input">Artist:</label>
+        <input class="form-input" type="text" id="artist-input" />
       </div>
       <div class="form-group">
-        <label for="password-signup">Album:</label>
-        <input class="form-input" type="text" id="password-signup" />
+        <label for="album-input">Album:</label>
+        <input class="form-input" type="text" id="album-input" />
       </div>
       <div class="form-group">
-        <label for="password-signup">Link:</label>
-        <input class="form-input" type="text" id="password-signup" />
+        <label for="link-input">Link:</label>
+        <input class="form-input" type="text" id="link-input" />
       </div>
+      <select name="genre-names" id="genre-names">
+                    <option value="" disabled selected>Select the genre!</option>
+                    <option value=1>Rock</option>
+                    <option value=2>Rap</option>
+                    <option value=3>Country</option>
+                    <option value=4>Pop</option>
+                    <option value=5>Indie</option>
+                    <option value=6>Funk</option>
+                    <option value=7>Electric</option>
+                  </select>
       <div class="form-group">
-        <button class="btn btn-primary" type="submit">submit song</button>
+        <button class="btn btn-primary" type="submit">Submit Song!</button>
       </div>
     </form>
   </div>
 </div>
+
+<script src="./js/input.js"></script>
