@@ -24,7 +24,7 @@ Song.init(
       allowNull: false,
     },
     embed: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     liked: {
