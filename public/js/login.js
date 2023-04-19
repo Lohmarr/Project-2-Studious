@@ -41,6 +41,17 @@ const signupFormHandler = async (event) => {
   }
 };
 
+const passwordInput = document.getElementById('password-signup');
+const signupForm = document.querySelector('.signup-form');
+
+signupForm.addEventListener('submit', (event) => {
+if (passwordInput.value.length < 6) {
+event.preventDefault();
+alert('Password must be at least six characters');
+}
+});
+
+
 document
   .querySelector('.login-form')
   .addEventListener('submit', loginFormHandler);
