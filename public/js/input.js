@@ -8,7 +8,7 @@ const addSongFormHandler = async (event) => {
   const songArtist = document.querySelector('#artist-input').value.trim()
     .replace(/\b\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});;
   const songAlbum = document.querySelector('#album-input').value.trim();
-  const songLink = document.querySelector('#link-input').value.trim();
+  const songEmbed = document.querySelector('#embed-input').value.trim();
   
   if (songTitle && songArtist && songAlbum && songLink && selectedGenreId) {
     const response = await fetch('/api/addSong', {
