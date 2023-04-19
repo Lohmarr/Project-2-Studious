@@ -9,7 +9,8 @@ router.post('/', withAuth, async (req, res) => {
       title: req.body.title,
       artist: req.body.artist,
       album: req.body.album,
-      link: req.body.link,
+      embed: req.body.embed,
+      genre_id: req.body.genre_id,
     });
 
     res.status(200).json(dbSongData);

@@ -38,11 +38,9 @@ router.get('/genre/:id', withAuth, async (req, res) => {
         {
           model: Song,
           attributes: [
-            'id',
             'title',
             'artist',
-            'album',
-            'link',
+            'embed',
           ],
         },
       ],

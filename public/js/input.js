@@ -13,7 +13,7 @@ const addSongFormHandler = async (event) => {
   if (songTitle && songArtist && songAlbum && songLink && selectedGenreId) {
     const response = await fetch('/api/addSong', {
       method: 'POST',
-      body: JSON.stringify({ title: songTitle, artist: songArtist, album: songAlbum, link: songLink, genre_id: selectedGenreId }),
+      body: JSON.stringify({ title: songTitle, artist: songArtist, album: songAlbum, embed: songLink, genre_id: selectedGenreId }),
       headers: { 'Content-Type': 'application/json' },
     });
   
