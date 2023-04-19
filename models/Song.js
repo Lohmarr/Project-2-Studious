@@ -27,6 +27,9 @@ Song.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    liked: {
+      type: DataTypes.BOOLEAN,
+    },
     genre_id: {
       type: DataTypes.INTEGER,
       references: {
