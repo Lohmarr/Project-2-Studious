@@ -23,7 +23,7 @@ Song.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    link: {
+    embed: {
       type: DataTypes.STRING,
       allowNull: false,
     },
