@@ -1,13 +1,14 @@
-<h1>Choose a Genre: </h1>
+{{!-- <h1>Choose a Genre: </h1> --}}
 <div class="genre-cards">
-  {{#each genres}}
-    <div class="gallery card-body painting">
+  <h1>Choose a Genre: </h1>
+  <div class="gallery">
+    {{#each genres}}
+    <div class="card-body painting">
       <h2>{{this.name}}</h2>
-      <img
-        src="/images/{{this.image_name}}"
-        alt="image representing genre"
-      />
+      <img src="/images/{{this.image_name}}" alt="image representing genre" />
+      <br>
       <a href="/genre/{{this.id}}">View {{this.name}} songs</a>
     </div>
   {{/each}}
+</div>
 </div>
