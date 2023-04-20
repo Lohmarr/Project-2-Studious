@@ -10,10 +10,10 @@ const addSongFormHandler = async (event) => {
   const songAlbum = document.querySelector('#album-input').value.trim();
   const songEmbed = document.querySelector('#embed-input').value.trim();
   
-  if (songTitle && songArtist && songAlbum && songLink && selectedGenreId) {
+  if (songTitle && songArtist && songAlbum && songEmbed && selectedGenreId) {
     const response = await fetch('/api/addSong', {
       method: 'POST',
-      body: JSON.stringify({ title: songTitle, artist: songArtist, album: songAlbum, embed: songLink, genre_id: selectedGenreId }),
+      body: JSON.stringify({ title: songTitle, artist: songArtist, album: songAlbum, embed: songEmbed, genre_id: selectedGenreId }),
       headers: { 'Content-Type': 'application/json' },
     });
   

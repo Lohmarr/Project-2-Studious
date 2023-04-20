@@ -79,7 +79,7 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 router.get('/input', (req, res) => {
-  res.render('input');
+  res.render('input', { loggedIn: req.session.loggedIn });
 });
 
 module.exports = router;
