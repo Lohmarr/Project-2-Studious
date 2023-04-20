@@ -1,5 +1,5 @@
 :root {
-  --primary: #d11589;
+  --primary: #EB1C64;
   --secondary: #000000;
   --tertiary: #2fda19;
   --quatrinary: #080702;
@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family:'Courier New', Courier, monospace;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -29,11 +29,15 @@ a:visited {
 }
 
 header {
-  padding: 40px;
+  padding: 10px;
   text-align: center;
-  background: var(--primary);
-  color: var(--light);
+  /* background-image: url(../images/songrex.jpg); */
+  /* background: url(../images/songrex.png); */
+  background-color: var(--primary);
+  color: var(--tertiary);
+  /* border-image: url(songrex.jpeg); */
 }
+
 
 main {
   display: flex;
@@ -44,29 +48,31 @@ main {
 }
 
 aside {
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: var(--secondary);
+  color: var(--tertiary);
   padding: 1rem;
-  flex-basis: 25%;
+  flex-basis: 100%;
   margin-right: 1rem;
   justify-content: center;
   align-items: center;
+  /* order: -1; */
 }
 
 nav {
   display: flex;
   background-color: var(--secondary);
+  color: var(--tertiary);
 }
 
 nav a {
-  color: var(--light);
+  color: var(--primary);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
 
 nav a:hover {
-  color: var(--secondary);
+  color: var(--primary);
   background-color: var(--dark);
 }
 
@@ -81,10 +87,13 @@ nav a:hover {
 } */
 
 .genre {
-  flex-basis: 70%;
+  flex-basis: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: var(--tertiary);
+  justify-content: center;
+  align-items: center;
 }
 
 .genre-item {
@@ -101,12 +110,17 @@ nav a:hover {
 }
 
 #logout {
-  background-color: #333;
-  color: white;
+  background-color: var(--secondary);
+  color:var(--tertiary);
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  padding: 0px 33px 33px 33px;
+  /* border-radius: 5px; */
   cursor: pointer;
+}
+
+#logout:hover {
+  color: var(--primary);
+  background-color: var(--dark);
 }
 
 .btn-no-style {
@@ -123,6 +137,19 @@ nav a:hover {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #007bff; Set your desired background color here */
+  padding: 10px;
+}
+
+.logo-container img {
+  max-height: 50px;
+  background-color: transparent;
 }
 
 .painting {
@@ -150,15 +177,17 @@ img {
 
 .login-card {
   margin: 0 0 20px 0;
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 var(--card-width);
+  max-width: 100%;
   padding: 5px;
   border: 3px solid var(--dark);
   border-radius: var(--border-radius);
   border-style: double;
   border-width: thick;
-  background-color: #577a7c;
-  color: var(--light);
+  background-color: var(--light);
+  color: var(--secondary);
+  display: flex;
+  flex-direction: column;
 }
 
 .card header {
@@ -166,7 +195,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  background-color: var(--tertiary);
+  background-color: var(--primary);
   padding: 0.625rem;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
@@ -177,7 +206,7 @@ img {
   font-weight: bold;
 }
 
-.gallery-name {
+.genre-name {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 2px 2px 5px var(--secondary);
@@ -188,10 +217,28 @@ img {
   padding-left: 100px;
 }
 
+.genre-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex: 0 0 var(--card-width);
+  max-width: 70%;
+  padding: 10px;
+  border: 3px solid var(--dark);
+  border-radius: 10px;
+  background-color: silver;
+  color: var(--secondary);
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+
 /* LAYOUT */
 .container {
   display: flex;
   flex-flow: column wrap;
-  align-content: flex-start;
+  align-content: center;
   align-items: center;
 }
