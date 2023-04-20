@@ -5,16 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Songrex</title>
-  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-  {{!-- <link rel="stylesheet" type="text/css" href="/css/jass.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css"> --}}
+  {{!-- <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> --}}
+  <link rel="stylesheet" type="text/css" href="/css/jass.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body>
   <header>
     <h1>WELCOME TO SONGREX</h1>
+     <div class="logo-container">
+    <img src="/images/songrex.png" alt="Logo">
+  </div>
   </header>
   <nav>
+    <aside>
+      <h2>Enjoy the Songs!!</h2>
+    </aside> 
     <a href="/">Home</a>
     {{#if loggedIn}}
     <button id="logout" class="btn-no-style">Logout</button>
@@ -24,8 +30,9 @@
     {{/if}}
   </nav>
   <main>
-    <aside>ENJOY THE SONGS!</h2>
-    </aside>
+    {{!-- <aside>
+      <h2>Enjoy the Songs!!</h2>
+    </aside> --}}
     <div class="genre">
       {{{body}}}
     </div>
@@ -33,6 +40,8 @@
   {{#if loggedIn}}
   <script src="/js/logout.js"></script>
   {{/if}}
+
+
 </body>
 
 </html>
