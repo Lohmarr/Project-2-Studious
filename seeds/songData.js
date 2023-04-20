@@ -291,6 +291,86 @@ const songData = [
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     genre_id: 2,
   },
+  {
+    title: 'Lightworks',
+    artist: 'J Dilla',
+    album: 'Donuts',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/0TIItu69NmCbgvJUD0Zbnb?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 2,
+  },
+  {
+    title: 'Ra-Ako-St',
+    artist: 'Lindstrom',
+    album: 'Smalhans',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5Ts39gE980CvM2yy8XYg6z?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
+  {
+    title: 'Another Place',
+    artist: 'Cuthead',
+    album: 'Take-Off',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/0Ba4tIawexVrlSfa1tpEyr?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
+  {
+    title: 'Raw Structure',
+    artist: 'Edward',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/4CZWXgMtDz4TojrfihXo7v?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
+  {
+    title: 'Youth Jazz',
+    artist: 'FYI Chris',
+    album: 'Black Dragon Loop',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/7AhZqOQ976CkrBYXCDdsyU?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
+  {
+    title: 'After Indigo',
+    artist: 'Damu',
+    album: 'Unity',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/4s34QbcHk6VbbS3RpS616A?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
+  {
+    title: 'Cherry',
+    artist: 'Daphni',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/7qdthSAP02SdvLGisBEVtI?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
+  {
+    title: 'BODMIN MOOR',
+    artist: 'SBTRKT',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/0hyjYTc7jbtBrZUghlhfvf?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 7,
+  },
 ];
 
 
