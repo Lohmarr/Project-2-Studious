@@ -371,6 +371,85 @@ const songData = [
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     genre_id: 7,
   },
+  {
+    title: 'Break it off - Bonus',
+    artist: 'PinkPanthress',
+    album: 'to hell with it',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/78ul3D77noQsYjSwvwiPU1?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
+  {
+    title: 'Ditto',
+    artist: 'NewJeans',
+    album: 'NewJeans OMG',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5702raF31K9rvD6KZ6sCTo?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
+  {
+    title: 'Kill Bill',
+    artist: 'SZA',
+    album: 'SOS',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/1Qrg8KqiBpW07V7PNxwwwL?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },{
+    title: 'Cooped Up',
+    artist: 'Post Malone',
+    album: 'Twelve Carat Toothache',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/32vE1nuG8T9c8bhmZdRY6d?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
+  {
+    title: 'Baby Be Mine',
+    artist: 'Michael Jackson',
+    album: 'Thriller',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/6XYbMGvtl6tlPoGWaiH7EY?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
+  {
+    title: 'I Feel Coming',
+    artist: 'The Weeknd',
+    album: 'Starboy',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5GXAXm5YOmYT0kL5jHvYBt?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
+  {
+    title: 'Never Felt So Alone',
+    artist: 'Labrinth',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5GXAXm5YOmYT0kL5jHvYBt?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
+  {
+    title: 'Dancing in the Courthouse',
+    artist: 'Dominic Fike',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/4ZwgD4frTwoDdOUsjyoqAJ?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 4,
+  },
 ];
 
 
