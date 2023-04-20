@@ -76,15 +76,21 @@ nav a:hover {
   background-color: var(--dark);
 }
 
-/* .gallery {
+.gallery {
   flex: 4;
-  background-color: #fff;
+  /* background-color: url(../images/muzic.jpeg); */
+  background-image: url(../images/muzic.jpeg);
   padding: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-} */
+}
+
+.gallery img {
+  height: 300px;
+  width: 400px;
+}
 
 .genre {
   flex-basis: 80%;
@@ -143,7 +149,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #007bff; Set your desired background color here */
   padding: 10px;
 }
 
@@ -153,15 +158,15 @@ img {
 }
 
 .painting {
-  width: 50%;
+  width: 320px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin: 10px;
 }
 
 .painting-details {
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-weight: bold;
 }
 
@@ -204,6 +209,7 @@ img {
   font-size: 1.4rem;
   text-align: center;
   font-weight: bold;
+  padding: 10px;
 }
 
 .genre-name {
@@ -242,3 +248,36 @@ img {
   align-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+  font-size: 14px;
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+    flex-direction: column;
+    }
+    
+    aside {
+    order: 1;
+    margin-right: 0;
+    margin-top: 1rem;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+      .logo-container {
+      display: none;
+      }
+      }
+
+      @media screen and (max-width: 768px) {
+        .gallery img {
+        height: 200px;
+        width: 300px;
+        }
+        }
+        
+        
