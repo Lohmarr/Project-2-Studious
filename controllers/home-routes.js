@@ -78,8 +78,21 @@ router.get('/login', (req, res) => {
 
   res.render('login');
 });
+
 router.get('/input', (req, res) => {
   res.render('input', { loggedIn: req.session.loggedIn });
+});
+
+router.get('/liked', async (req, res) => {
+  // We find all dishes in the db and set the data equal to dishData
+  const likedData = await Song.findAll({where: {liked: true}}).catch((err) => { 
+    res.json(err);
+  });
+  // We use map() to iterate over dishData and then add .get({ plain: true }) each object to serialize it. 
+  const songs = likedData.map((song) => song.get({ plain: true }));
+  console.log(songs)
+  // We render the template, 'all', passing in dishes, a new array of serialized objects.
+  res.render('liked', { songs, loggedIn: req.session.loggedIn });
 });
 
 module.exports = router;

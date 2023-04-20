@@ -7,7 +7,6 @@ Song.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
@@ -29,6 +28,7 @@ Song.init(
     },
     liked: {
       type: DataTypes.BOOLEAN,
+      defaultValue: false,
     },
     genre_id: {
       type: DataTypes.INTEGER,
