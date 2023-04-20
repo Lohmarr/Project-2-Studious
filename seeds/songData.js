@@ -101,6 +101,46 @@ const songData = [
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     genre_id: 6,
   },
+  {
+    title: 'Can We Forget',
+    artist: 'ALEXSUCKS',
+    album: 'Can We Forget',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/07yilZPUJuVK5HpqObUhWG?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 1,
+  },
+  {
+    title: 'Guillotine',
+    artist: 'Stray from the Path',
+    album: 'Euthanasia',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/0Qv6SQFLzg3KGBlOgOEBJK?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 1,
+  },
+  {
+    title: 'Writing on the Walls',
+    artist: 'Underoath',
+    album: 'Define the Great Line',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/313yF0VXTCmFFoYEJF7nBQ?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 1,
+  },
+  {
+    title: 'Writing on the Walls',
+    artist: 'Underoath',
+    album: 'Define the Great Line',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/313yF0VXTCmFFoYEJF7nBQ?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 1,
+  },
 ];
 
 const seedSongs = () => Song.bulkCreate(songData);
