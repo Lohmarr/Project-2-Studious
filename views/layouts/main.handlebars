@@ -23,8 +23,9 @@
     </aside>
     <a href="/">Home</a>
     {{#if loggedIn}}
-<a id="logout" href="#" class="btn-no-style">Logout</a>
+<button id="logout" href="#" class="btn-no-style">Logout</button>
     <a href="/input">Add new song!</a>
+    <a href="/liked">View liked songs!</a>
     {{else}}
     <a href="/login">Login</a>
     {{/if}}
