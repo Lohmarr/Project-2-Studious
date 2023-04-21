@@ -530,6 +530,68 @@ const songData = [
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     genre_id: 5,
   },
+  {
+    title: 'Do My Thang',
+    artist: 'DaM-Funk, Snoop Dogg',
+    album: '7 Days of Funk',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/1JTE9076Zkksk8BCNrjDDn?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 6,
+  },
+  {
+    title: 'The Way You Make Me Feel',
+    artist: 'The Kount, Marc Rebillet',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/7iXA7a53fVKxPJFJvebJ8P?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 6,
+  },
+  {
+    title: 'More Bounce to the Ounce',
+    artist: 'Zapp',
+    album: 'All the Greatest Hits',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/3Ho35OJixLg20qshXRgfBs?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 6,
+  },
+  {
+    title: 'V-Neck Sweater',
+    artist: 'The Greyboy Allstars',
+    album: 'What Happened to Television',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5K5NAQrHIX5OdHdGgAVfIx?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 6,
+  },
+  {
+    title: 'Move On Up',
+    artist: 'Lettuce, Alan Evans, Dwele, Jason Crosby Kalen Evans',
+    album: 'What Happened to Television',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/17EstPHlkjKJYF00jbOe5h?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 6,
+  },
+  {
+    title: 'Laberiinto',
+    artist: 'Rawayana, Bosq',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/73EADOHLCpA5Fk4EM8vzO1?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 6,
+  },
+  
+  
 ];
 
 
