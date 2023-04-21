@@ -36,7 +36,13 @@ const signupFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/');
     } else {
-      alert('Failed to sign up.');
+      const error = await response.json();
+      console.log(error)
+      if (error.name === 'SequelizeUniqueConstraintError' && error.fields.email) {
+        alert('Email already exists!');
+      } else {
+        alert('Failed to sign up.');
+      }
     }
   }
 };
