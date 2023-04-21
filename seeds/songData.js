@@ -292,16 +292,6 @@ const songData = [
     genre_id: 2,
   },
   {
-    title: 'Lightworks',
-    artist: 'J Dilla',
-    album: 'Donuts',
-    embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/0TIItu69NmCbgvJUD0Zbnb?utm_source=generator" 
-    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
-    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 2,
-  },
-  {
     title: 'Ra-Ako-St',
     artist: 'Lindstrom',
     album: 'Smalhans',
