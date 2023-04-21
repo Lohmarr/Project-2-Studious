@@ -450,6 +450,86 @@ const songData = [
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     genre_id: 4,
   },
+  {
+    title: 'Slugs of Love',
+    artist: 'Little Dragon',
+    album: 'Slugs of Love',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/29sTtddkz63yiOXb1piN2V?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Deja Vu',
+    artist: 'Toro Y Moi',
+    album: 'Deja Vu',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/29Hg1jaX5ZY5miqr3ScQSn?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Blood in the Snow',
+    artist: 'Totally Enormous Extinct Dinosaurs',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5yiEvFextSviCStbutB8UI?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Fill My Mouth',
+    artist: 'Goat',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5R71qFJDPnaNOXxuNDR9Mz?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Silvia',
+    artist: 'Miike Snow',
+    album: 'Miike Snow (Deluxe Edition',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/2Cq2BrkoxqMvP3hcJHWNga?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Heavy Denim Loop',
+    artist: 'Stereolab',
+    album: 'Electrically Possessed (Switched on Volume 4)',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/399NsrSvMNVHJmlqRB1ryY?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Human Fell',
+    artist: 'Hello Leo, Theophilus London, Chris Braide',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/1XI70VdVbLSFcDHQ9p4BcS?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'That Life',
+    artist: 'Unknown Human Orchestra',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5z0Wa1EiCoaUafx83WszRY?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
 ];
 
 
