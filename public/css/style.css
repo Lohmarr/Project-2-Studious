@@ -58,6 +58,10 @@ aside {
   /* order: -1; */
 }
 
+button {
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   background-color: var(--secondary);
@@ -168,6 +172,10 @@ img {
   text-align: center;
   padding: 5px 10px;
   font-weight: bold;
+}
+
+.song-details {
+  margin: 3%;
 }
 
 /* CARDS */

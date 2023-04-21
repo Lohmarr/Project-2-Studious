@@ -441,85 +441,86 @@ const songData = [
     genre_id: 4,
   },
   {
-    title: 'Clic',
-    artist: 'DjeuhDjoah',
-    album: '2+',
+    title: 'Slugs of Love',
+    artist: 'Little Dragon',
+    album: 'Slugs of Love',
     embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/21GFqlfJNY8MlnzqXn6bQj?utm_source=generator" 
+    src="https://open.spotify.com/embed/track/29sTtddkz63yiOXb1piN2V?utm_source=generator" 
     width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
+    genre_id: 5,
   },
   {
-    title: 'Laberinto (Bosq Remix)',
-    artist: 'Rawayana Bosq',
+    title: 'Deja Vu',
+    artist: 'Toro Y Moi',
+    album: 'Deja Vu',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/29Hg1jaX5ZY5miqr3ScQSn?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'Blood in the Snow',
+    artist: 'Totally Enormous Extinct Dinosaurs',
     album: '',
     embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/73EADOHLCpA5Fk4EM8vzO1?utm_source=generator" 
+    src="https://open.spotify.com/embed/track/5yiEvFextSviCStbutB8UI?utm_source=generator" 
     width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
+    genre_id: 5,
   },
   {
-    title: 'Move on Up',
-    artist: 'Lettuce, Alan Evans, Dwele, Jason Crosby, Kalen Evans',
-    album: 'Rage',
-    embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/17EstPHlkjKJYF00jbOe5h?utm_source=generator" 
-    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
-    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
-  },
-  {
-    title: 'The Greyboy Allstars',
-    artist: 'V-Neck Sweater',
-    album: 'What Happened to Television?',
-    embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/5K5NAQrHIX5OdHdGgAVfIx?utm_source=generator" 
-    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
-    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
-  },
-  {
-    title: 'More Bounce to the Ounce',
-    artist: 'Zapp',
-    album: 'All the Greatest Hits',
-    embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/3Ho35OJixLg20qshXRgfBs?utm_source=generator" 
-    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
-    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
-  },
-  {
-    title: 'The Way You Make Me Feel',
-    artist: 'The Kount, Marc Rebillet, Moods',
+    title: 'Fill My Mouth',
+    artist: 'Goat',
     album: '',
     embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/7iXA7a53fVKxPJFJvebJ8P?utm_source=generator" 
+    src="https://open.spotify.com/embed/track/5R71qFJDPnaNOXxuNDR9Mz?utm_source=generator" 
     width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
+    genre_id: 5,
   },
   {
-    title: 'Rotational',
-    artist: 'Tuxedo',
-    album: 'Tuxedo II',
+    title: 'Silvia',
+    artist: 'Miike Snow',
+    album: 'Miike Snow (Deluxe Edition',
     embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/2Tvwv6NzNySADYgIxwcHI6?utm_source=generator" 
+    src="https://open.spotify.com/embed/track/2Cq2BrkoxqMvP3hcJHWNga?utm_source=generator" 
     width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
+    genre_id: 5,
   },
   {
-    title: 'Do My Thang',
-    artist: 'DaM-Funk, Snoop Dogg',
-    album: '7 Days of Funk',
+    title: 'Heavy Denim Loop',
+    artist: 'Stereolab',
+    album: 'Electrically Possessed (Switched on Volume 4)',
     embed: `<iframe style="border-radius:12px" 
-    src="https://open.spotify.com/embed/track/1JTE9076Zkksk8BCNrjDDn?utm_source=generator" 
+    src="https://open.spotify.com/embed/track/399NsrSvMNVHJmlqRB1ryY?utm_source=generator" 
     width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
     encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-    genre_id: 6,
+    genre_id: 5,
   },
+  {
+    title: 'Human Fell',
+    artist: 'Hello Leo, Theophilus London, Chris Braide',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/1XI70VdVbLSFcDHQ9p4BcS?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+  {
+    title: 'That Life',
+    artist: 'Unknown Human Orchestra',
+    album: '',
+    embed: `<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/5z0Wa1EiCoaUafx83WszRY?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+    encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    genre_id: 5,
+  },
+];
 
 
 const seedSongs = () => Song.bulkCreate(songData);
